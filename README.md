@@ -1,16 +1,18 @@
-#🚀 **News Sentiment Analysis Pipeline**
+# **🚀News Sentiment Analysis Pipeline**
 
 A cloud-native pipeline to fetch real-time news, analyze sentiment using TESTBLOB, store it in PostgreSQL (RDS), and visualize insights via a Streamlit dashboard hosted on ECS Fargate.
 
----
 
-## 🧱  **Architecture**
+
+
+### 🧱  **Architecture**
 
 ![Architecture Diagram](architecture.jpeg)
 
----
 
-## 🛠️**Tech Stack**
+
+
+### 🛠️**Tech Stack**
 
 - **⚡AWS Lambda** – News fetching & sentiment scoring  
 - **🐘Amazon RDS** – PostgreSQL for structured sentiment storage  
@@ -20,15 +22,18 @@ A cloud-native pipeline to fetch real-time news, analyze sentiment using TESTBLO
 - **📊Streamlit** – Dashboard to display sentiment trends  
 - **🐳Docker + 🧰ECR** – For containerized dashboard deployment
 
----
 
-## **✨Features**
+
+
+### **✨Features**
 
 - 🔄Automated news fetching from News API
 - 📈Real-time sentiment analysis 
 - 🧾Raw and structured storage using S3 & RDS  
 - 🖥️Dockerized Streamlit dashboard  
 - 💸Serverless and cost-effective architecture
+
+
 
 ## **📖Overview**
 
